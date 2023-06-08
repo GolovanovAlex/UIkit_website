@@ -8,6 +8,12 @@ $color_bgdark: #0f1010;
 body {
   min-width: 300px;
   overflow-x: hidden;
+  // font-family: 'Poppins', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: $color_dark;
 }
 .container {
   max-width: 1920px;

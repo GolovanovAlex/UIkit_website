@@ -1,12 +1,67 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+$global-font-family: 'Pacifico', cursive;
 // ---- ---- reset ---- ---- //
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'uikit.scss';
+@import 'custom/blue/uikit.scss';
 @import 'global.scss';
 
-// ---- ---- fonts ---- ---- //
-@font-face {
+// ---- ---- media ---- ---- //
+.header {
+  background-color: red;
+}
+.logo {
+  &__box {
+  }
+  &__link {
+  }
+}
+.menu {
+  &__list {
+  }
+  &__item {
+  }
+}
+.user {
+  &__box {
+  }
+  &__avatar {
+  }
+  &__name {
+  }
+}
+.main {
+  background-color: #fefefe;
+}
+.footer {
+  background-color: aqua;
 }
 
+.uk-container {
+  background-color: #fff222;
+  height: 100px;
+}
+.uk-container-xsmall {
+  background-color: #11ff22;
+  height: 100px;
+}
+.uk-container-small {
+  background-color: #f12222;
+  height: 100px;
+}
+.uk-container-large {
+  background-color: #00ffff;
+  height: 100px;
+}
+.uk-container-xlarge {
+  background-color: #ff00f2;
+  height: 100px;
+}
+.uk-container-expand {
+  background-color: #feffe2;
+  height: 100px;
+}
 // ---- ---- media ---- ---- //
 @import 'media.scss';
