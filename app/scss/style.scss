@@ -1,17 +1,36 @@
-// $container-large-max-width: 750px !default;
+// ---- ---- var UIKit---- ---- //
+$global-font-family: 'Lora', serif;
+$global-color: #86c232;
+$global-background: #222629;
+$global-emphasis-color: #86c232;
+$global-muted-color: #a5a5a5;
+$container-large-max-width: 1366px;
+// ---- ----  del late ---- ---- //
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-// $global-font-family: 'Pacifico', cursive;
-// ---- ---- reset ---- ---- //
+
+// ---- ---- fonts ---- ---- //
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+// ---- ---- import ---- ---- //
 @import 'normalize.scss';
 @import 'myreset.scss';
-@import 'uikit.scss';
+@import 'variables-theme.scss';
+@import 'mixins-theme.scss';
+@import 'uikit-theme.scss';
 @import 'global.scss';
 
-// ---- ---- media ---- ---- //
+// ---- ---- main ---- ---- //
 .header {
-  background-color: red;
+  background-color: $color_bgdark;
 }
+.hero {
+  background-color: $color_bgdark;
+}
+.uk-container-large {
+  background-color: $color_bglight;
+}
+
+// ---- ---- Templ ---- ---- //
 .logo {
   &__box {
   }
@@ -39,29 +58,8 @@
   background-color: aqua;
 }
 
-.uk-container {
-  background-color: #fff222;
-  height: 100px;
-}
-.uk-container-xsmall {
-  background-color: #11ff22;
-  height: 100px;
-}
-.uk-container-small {
-  background-color: #f12222;
-  height: 100px;
-}
 .uk-container-large {
-  background-color: #00ffff;
-  height: 100px;
 }
-.uk-container-xlarge {
-  background-color: #ff00f2;
-  height: 100px;
-}
-.uk-container-expand {
-  background-color: #feffe2;
-  height: 100px;
-}
+
 // ---- ---- media ---- ---- //
 @import 'media.scss';

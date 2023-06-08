@@ -21,27 +21,27 @@
       <div class="container">
         <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
           <div class="logo__box">
-            <a class="uk-logo" href="#">Пес К-9</a>
+            <a class="uk-logo" href="index.html">Пес К-9</a>
           </div>
           <nav
-            class="uk-navbar-container uk-navbar-transparent uk-flex-middle uk-padding uk-padding-remove-vertica"
+            class="uk-navbar-container uk-navbar-transparent uk-flex-middle"
             uk-navbar="align: center"
           >
             <ul class="uk-navbar-nav uk-flex uk-flex-between">
-              <li class="uk-nav uk-padding uk-padding-remove-vertica">
+              <li class="uk-nav">
                 <a href="#">Дрессировка</a>
                 <div class="uk-navbar-dropdown">
                   <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li><a href="#">Выбрать Курс</a></li>
-                    <li><a href="#">Основы</a></li>
-                    <li><a href="#">Начальный</a></li>
-                    <li><a href="#">Продвинутый</a></li>
-                    <li><a href="#">Трюки</a></li>
-                    <li><a href="#">Спец. курсы</a></li>
+                    <li><a href="#">Как выбрать курс?</a></li>
+                    <li><a href="#">Курс: Основы</a></li>
+                    <li><a href="#">Курс: Начальный</a></li>
+                    <li><a href="#">Курс: Продвинутый</a></li>
+                    <li><a href="#">Курс: Трюки</a></li>
+                    <li><a href="#">Спец. Курсы</a></li>
                   </ul>
                 </div>
               </li>
-              <li class="uk-nav uk-padding uk-padding-remove-vertica">
+              <li class="uk-nav">
                 <a href="#">Магазин</a>
                 <div class="uk-navbar-dropdown">
                   <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -53,7 +53,7 @@
                   </ul>
                 </div>
               </li>
-              <li class="uk-nav uk-padding uk-padding-remove-vertica">
+              <li class="uk-nav">
                 <a href="#">О нас</a>
                 <div class="uk-navbar-dropdown">
                   <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -74,13 +74,110 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
+      <section class="hero">
+        <div class="uk-container uk-container-large">
+          <h1>Сделай из своей собаки агента K-9</h1>
+          <p>
+            Наши профессиональные дрессировщики с многолетним стажем помогут вам
+            и вашему питомцу научиться и овладеть не только основам хорошего
+            поведения и дрессировки, но сделают все, чтобы превратить его
+            "служебную собаку" знающего множество команд.
+          </p>
+          <p>
+            На нашем сайте вы найдете курсы разработанные специально под разные
+            возраст, породу и характер, что ускорит тренировки и сделает их
+            интересными и полезными.
+          </p>
+          <p><a href="#">Подобрать курс!</a></p>
+          <div uk-slideshow="animation: push">
+            <ul
+              class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"
+            ></ul>
+            <div
+              class="uk-position-relative uk-visible-toggle uk-light"
+              tabindex="-1"
+            >
+              <ul class="uk-slideshow-items">
+                <li>
+                  <img
+                    src="images/content/dog_01.jpeg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_02.jpg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_03.jpg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_04.jpg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_05.jpeg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_06.jpeg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_07.webp"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/content/dog_08.jpg"
+                    alt="Тренировка Собаки"
+                    uk-cover
+                  />
+                </li>
+              </ul>
+              <a
+                class="uk-position-center-left uk-position-small"
+                href="#"
+                uk-slidenav-previous
+                uk-slideshow-item="previous"
+              ></a>
+              <a
+                class="uk-position-center-right uk-position-small"
+                href="#"
+                uk-slidenav-next
+                uk-slideshow-item="next"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="container">
         <div class="uk-container uk-container-xsmall"></div>
         <div class="uk-container uk-container-small"></div>
         <div class="uk-container uk-container-large"></div>
         <div class="uk-container uk-container-xlarge"></div>
         <div class="uk-container uk-container-expand"></div>
-      </div>
+      </div> -->
     </main>
     <footer class="footer"></footer>
     <script src="js/main.min.js"></script>
