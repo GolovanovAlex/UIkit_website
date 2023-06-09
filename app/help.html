@@ -154,106 +154,145 @@
             <h1
               class="title title__h1 uk-heading-medium uk-text-center uk-text-secondary uk-margin-medium-top uk-text-bold"
             >
-              Сделай из своей собаки агента K-9
+              Заполните заявку и мы поможем выбрать курс
             </h1>
             <p>
-              Наши профессиональные дрессировщики с многолетним стажем помогут
-              вам и вашему питомцу научиться и овладеть не только основам
-              хорошего поведения и дрессировки, но сделают все, чтобы превратить
-              его "служебную собаку" знающего множество команд.
+              Ответьте на несколько простых вопросов и мы поможем подобрать
+              лучший курс для вашего питомца с учетом возраста, породы и
+              характера.
             </p>
             <p>
-              На нашем сайте вы найдете курсы разработанные специально под
-              разные возраст, породу и характер, что ускорит тренировки и
-              сделает их интересными и полезными.
+              Наши специалисты с многолетним стажем и опытом проанализируют и
+              свяжутся с вами для утверждения подходящего курса.
             </p>
-            <div class="uk-text-center uk-margin-medium">
-              <a
-                class="uk-button uk-button-primary uk-margin uk-button-large uk-text-bold"
-                uk-tooltip="Нажимай скорее!"
-                href="help.html"
-                >Подобрать курс!</a
-              >
-            </div>
-          </div>
-          <div class="uk-margin-bottom" uk-slideshow="animation: push">
-            <ul
-              class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"
-            ></ul>
-            <div
-              class="uk-position-relative uk-visible-toggle uk-light"
-              tabindex="-1"
-            >
-              <ul class="uk-slideshow-items">
-                <li>
-                  <img
-                    src="images/content/dog_01.jpeg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_02.jpg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_03.jpg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_04.jpg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_05.jpeg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_06.jpeg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_07.webp"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/content/dog_08.jpg"
-                    alt="Тренировка Собаки"
-                    uk-cover
-                  />
-                </li>
-              </ul>
-              <a
-                class="uk-position-center-left uk-position-small"
-                href="#"
-                uk-slidenav-previous
-                uk-slideshow-item="previous"
-              ></a>
-              <a
-                class="uk-position-center-right uk-position-small"
-                href="#"
-                uk-slidenav-next
-                uk-slideshow-item="next"
-              ></a>
+            <div class="uk-container uk-container-xsmall uk-margin-medium-top">
+              <form class="uk-form-horizontal .uk-grid-medium" uk-grid>
+                <div class="uk-margin uk-width-1-1">
+                  <label
+                    class="uk-form-label uk-text-secondary uk-text-bold"
+                    for="form-horizontal-text"
+                    >Кличка Питомца</label
+                  >
+                  <div class="uk-form-controls">
+                    <div class="uk-inline uk-width-1-1">
+                      <span class="uk-form-icon" uk-icon="icon: heart"></span>
+                      <input
+                        class="uk-input"
+                        id="form-horizontal-text"
+                        type="text"
+                        placeholder="Введите кличку питомца..."
+                        aria-label="Not clickable icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="uk-margin uk-width-1-1">
+                  <label
+                    class="uk-form-label uk-text-secondary uk-text-bold"
+                    for="form-horizontal-phone"
+                    >Номер Телефона</label
+                  >
+                  <div class="uk-form-controls uk-inline uk-width-1-1">
+                    <span class="uk-form-icon" uk-icon="icon: receiver"></span>
+                    <input
+                      class="uk-input uk-width-1-2"
+                      id="form-horizontal-phone"
+                      type="tel"
+                      placeholder="Введите ваш номер телефона..."
+                    />
+                  </div>
+                </div>
+                <div class="uk-margin uk-width-1-1">
+                  <label
+                    class="uk-form-label uk-text-secondary uk-text-bold"
+                    for="form-horizontal-email"
+                    >Ваш E-mail</label
+                  >
+                  <div class="uk-form-controls uk-inline uk-width-1-1">
+                    <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                    <input
+                      class="uk-input uk-width-1-2"
+                      id="form-horizontal-email"
+                      type="email"
+                      placeholder="Введите ваш E-mail..."
+                    />
+                  </div>
+                </div>
+
+                <div class="uk-margin uk-width-1-2@m">
+                  <label
+                    class="uk-form-label uk-text-secondary uk-text-bold"
+                    for="form-horizontal-select"
+                    >Возраст</label
+                  >
+                  <div class="uk-form-controls">
+                    <select class="uk-select" id="form-horizontal-select">
+                      <option>0-3 месяца</option>
+                      <option>4-6 месяцев</option>
+                      <option>7-12 месяцев</option>
+                      <option>12-18 месяцев</option>
+                      <option>2 года</option>
+                      <option>от 3 лет</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="uk-margin uk-width-1-2@m">
+                  <div class="uk-form-label uk-text-secondary uk-text-bold">
+                    Пол
+                  </div>
+                  <div class="uk-form-controls uk-form-controls-text">
+                    <label
+                      ><input
+                        class="uk-radio"
+                        type="radio"
+                        name="radio1"
+                        checked
+                      />
+                      Мальчик</label
+                    ><br />
+                    <label
+                      ><input class="uk-radio" type="radio" name="radio1" />
+                      Девочка</label
+                    >
+                  </div>
+                </div>
+                <div
+                  class="uk-margin uk-grid-small uk-child-width-auto uk-grid"
+                >
+                  <div class="uk-form-label uk-text-secondary uk-text-bold">
+                    Сделаны прививки?
+                  </div>
+                  <label
+                    ><input class="uk-checkbox" type="checkbox" checked />
+                    Да</label
+                  >
+                </div>
+
+                <div class="uk-margin-medium uk-width-1-1">
+                  <button
+                    class="uk-button uk-button-primary uk-margin uk-button-large uk-text-bold"
+                  >
+                    Отправить!
+                  </button>
+                </div>
+                <div class="uk-margin-medium uk-width-1-4@s">
+                  <a
+                    class="uk-button uk-button-primary uk-margin uk-button uk-text-bold"
+                    href="#"
+                  >
+                    Курсы
+                  </a>
+                </div>
+                <div class="uk-margin-medium uk-width-1-4@s">
+                  <a
+                    class="uk-button uk-button-primary uk-margin uk-button uk-text-bold"
+                    href="index.html"
+                  >
+                    Главная
+                  </a>
+                </div>
+              </form>
             </div>
           </div>
         </div>
