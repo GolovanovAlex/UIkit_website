@@ -59,9 +59,9 @@ function build() {
       'app/favicon/**/*',
       'app/fonts/**/*',
       'app/js/main.min.js',
-      'app/js/jquery.min.js',
-      'app/js/jquery.fancybox.min.js',
-      'app/js/slick.min.js',
+      'app/js/uikit.min.js',
+      'app/js/uikit-icons.min.js',
+      'app/humans.txt',
       'app/*html',
     ],
     { base: 'app' }
