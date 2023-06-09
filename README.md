@@ -1,6 +1,4 @@
-# UIkit Website
-
-![image](readme/underconstruction.gif)
+# Пес К-9 UIkit Website
 
 ### Use Skills
 
@@ -22,13 +20,13 @@
 
 Работа с **HTML**, **CSS** и **UIkit**.  
 Использование препроцессинга **SASS**, сборщика **Gulp**.  
-Техническое задание по работе с модульным фреймворком **UIkit**
+Техническое задание по работе с модульным фреймворком **UIkit**.
 
 ---
 
 Респонсивный дизайн адаптирует сайт под любой экран устройства.
 
-![GifMobile](readme/mobile.webp) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifTablet](readme/tablet.webp)
+![GifMobile](readme/mobile.webp) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifTablet](readme/tablet.webp)
 
 ---
 
