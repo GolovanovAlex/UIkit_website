@@ -1,10 +1,21 @@
 // ---- ---- var UIKit---- ---- //
 $global-font-family: 'Lora', serif;
 $global-color: #86c232;
-$global-background: #222629;
 $global-emphasis-color: #86c232;
 $global-muted-color: #a5a5a5;
+$global-background: #222629;
+$global-danger-background: #b23850;
+$global-success-background: #61892f;
+$global-primary-background: #222629;
+
 $container-large-max-width: 1366px;
+
+$tooltip-background: $global-success-background;
+$dotnav-item-background: $global-background;
+$dotnav-item-hover-background: $global-danger-background;
+$dotnav-item-onclick-background: $global-danger-background;
+$dotnav-item-active-background: $global-danger-background;
+
 // ---- ----  del late ---- ---- //
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
@@ -20,6 +31,9 @@ $container-large-max-width: 1366px;
 @import 'global.scss';
 
 // ---- ---- main ---- ---- //
+.main {
+  min-height: 100vh;
+}
 .header {
   background-color: $color_bgdark;
 }
@@ -29,37 +43,23 @@ $container-large-max-width: 1366px;
 .uk-container-large {
   background-color: $color_bglight;
 }
-
-// ---- ---- Templ ---- ---- //
-.logo {
-  &__box {
-  }
-  &__link {
-  }
+.uk-label {
+  font-size: 0.65rem;
 }
-.menu {
-  &__list {
-  }
-  &__item {
-  }
-}
-.user {
-  &__box {
-  }
-  &__avatar {
-  }
-  &__name {
-  }
-}
-.main {
-  background-color: #fefefe;
+.img {
+  display: inline-block;
+  max-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid $global-background;
 }
 .footer {
-  background-color: aqua;
+  min-height: 80px;
+  background-color: $global-background;
 }
-
-.uk-container-large {
-}
+// ---- ---- Templ ---- ---- //
 
 // ---- ---- media ---- ---- //
 @import 'media.scss';

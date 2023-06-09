@@ -19,7 +19,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
+        <div class="menu uk-container uk-flex uk-flex-between uk-flex-middle">
           <div class="logo__box">
             <a class="uk-logo" href="index.html">Пес К-9</a>
           </div>
@@ -36,7 +36,12 @@
                     <li><a href="#">Курс: Основы</a></li>
                     <li><a href="#">Курс: Начальный</a></li>
                     <li><a href="#">Курс: Продвинутый</a></li>
-                    <li><a href="#">Курс: Трюки</a></li>
+                    <li>
+                      <a href="#"
+                        ><span class="uk-label uk-label-danger">New</span>Курс:
+                        Трюки</a
+                      >
+                    </li>
                     <li><a href="#">Спец. Курсы</a></li>
                   </ul>
                 </div>
@@ -45,9 +50,19 @@
                 <a href="#">Магазин</a>
                 <div class="uk-navbar-dropdown">
                   <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li><a href="#">Уход</a></li>
+                    <li>
+                      <a href="#"
+                        ><span class="uk-label uk-label-danger">New</span
+                        >Уход</a
+                      >
+                    </li>
                     <li><a href="#">Здоровье</a></li>
-                    <li><a href="#">Корма</a></li>
+                    <li>
+                      <a href="#"
+                        ><span class="uk-label uk-label-danger">New</span
+                        >Корма</a
+                      >
+                    </li>
                     <li><a href="#">Аксессуары</a></li>
                     <li><a href="#">Лакомства</a></li>
                   </ul>
@@ -66,30 +81,102 @@
               </li>
             </ul>
           </nav>
-          <div class="user user__box">
-            <img class="user__avatar" src="" alt="User Avatar" />
-            <span class="user__name">Имя Персонажа</span>
-          </div>
+          <nav uk-dropnav>
+            <ul class="uk-subnav uk-margin-remove">
+              <li class="uk-flex uk-flex-middle">
+                <img
+                  src="images/icon/user_avatar.webp"
+                  alt="User_Logo"
+                  class="img"
+                />
+                <a class="uk-margin-small-left uk-text-success" href="#"
+                  >HellDog777<span uk-drop-parent-icon></span
+                ></a>
+                <div class="uk-dropdown">
+                  <ul class="uk-nav uk-dropdown-nav">
+                    <li>
+                      <a href="#"
+                        ><span
+                          uk-icon="heart"
+                          class="uk-margin-small-right"
+                        ></span>
+                        Питомец</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span
+                          uk-icon="album"
+                          class="uk-margin-small-right"
+                        ></span>
+                        Курс</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span
+                          uk-icon="bookmark"
+                          class="uk-margin-small-right"
+                        ></span>
+                        Тренер</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span
+                          uk-icon="settings"
+                          class="uk-margin-small-right"
+                        ></span>
+                        Настроки</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="uk-text-danger">
+                        <span
+                          uk-icon="sign-out"
+                          class="uk-margin-small-right"
+                        ></span
+                        >Выход
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
     <main class="main">
       <section class="hero">
         <div class="uk-container uk-container-large">
-          <h1>Сделай из своей собаки агента K-9</h1>
-          <p>
-            Наши профессиональные дрессировщики с многолетним стажем помогут вам
-            и вашему питомцу научиться и овладеть не только основам хорошего
-            поведения и дрессировки, но сделают все, чтобы превратить его
-            "служебную собаку" знающего множество команд.
-          </p>
-          <p>
-            На нашем сайте вы найдете курсы разработанные специально под разные
-            возраст, породу и характер, что ускорит тренировки и сделает их
-            интересными и полезными.
-          </p>
-          <p><a href="#">Подобрать курс!</a></p>
-          <div uk-slideshow="animation: push">
+          <div class="uk-container uk-container-small">
+            <h1
+              class="title title__h1 uk-heading-medium uk-text-center uk-text-secondary uk-margin-medium-top uk-text-bold"
+            >
+              Сделай из своей собаки агента K-9
+            </h1>
+            <p>
+              Наши профессиональные дрессировщики с многолетним стажем помогут
+              вам и вашему питомцу научиться и овладеть не только основам
+              хорошего поведения и дрессировки, но сделают все, чтобы превратить
+              его "служебную собаку" знающего множество команд.
+            </p>
+            <p>
+              На нашем сайте вы найдете курсы разработанные специально под
+              разные возраст, породу и характер, что ускорит тренировки и
+              сделает их интересными и полезными.
+            </p>
+            <div class="uk-text-center uk-margin-medium">
+              <a
+                class="uk-button uk-button-primary uk-margin uk-button-large uk-text-bold"
+                uk-tooltip="Нажимай скорее!"
+                href="help.html"
+                >Подобрать курс!</a
+              >
+            </div>
+          </div>
+          <div class="uk-margin-bottom" uk-slideshow="animation: push">
             <ul
               class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"
             ></ul>
@@ -171,15 +258,12 @@
           </div>
         </div>
       </section>
-      <!-- <div class="container">
-        <div class="uk-container uk-container-xsmall"></div>
-        <div class="uk-container uk-container-small"></div>
-        <div class="uk-container uk-container-large"></div>
-        <div class="uk-container uk-container-xlarge"></div>
-        <div class="uk-container uk-container-expand"></div>
-      </div> -->
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer uk-flex uk-flex-middle uk-flex-center">
+      <p class="uk-text-success uk-text-center uk-margin-remove">
+        Лучшие друзья - агенты K-9!
+      </p>
+    </footer>
     <script src="js/main.min.js"></script>
   </body>
 </html>

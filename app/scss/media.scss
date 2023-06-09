@@ -1,3 +1,10 @@
 // ---- ---- media ---- ---- //
-@media (max-width: 1440px) {
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .title__h1 {
+    font-size: 1.9rem;
+  }
 }
