@@ -28,7 +28,7 @@
 
 Респонсивный дизайн адаптирует сайт под любой экран устройства.
 
-![GifMobile](readme/mobile.webp) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifMobile](readme/tablet.webp)
+![GifMobile](readme/mobile.webp) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifTablet](readme/tablet.webp)
 
 ---
 
