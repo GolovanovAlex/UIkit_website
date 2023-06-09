@@ -17,9 +17,6 @@ $dotnav-item-hover-background: $global-danger-background;
 $dotnav-item-onclick-background: $global-danger-background;
 $dotnav-item-active-background: $global-danger-background;
 
-// ---- ----  del late ---- ---- //
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 // ---- ---- fonts ---- ---- //
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
@@ -60,7 +57,5 @@ $dotnav-item-active-background: $global-danger-background;
   min-height: 80px;
   background-color: $global-background;
 }
-// ---- ---- Templ ---- ---- //
-
 // ---- ---- media ---- ---- //
 @import 'media.scss';

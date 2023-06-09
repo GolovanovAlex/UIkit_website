@@ -1,8 +1,5 @@
 // ---- ---- color ---- ---- //
-$color_light: #a5a5a5;
 $color_t_dark: #222629;
-$color_dark: #474b4f;
-$color_l_accent: #61892f;
 $color_bglight: #86c232;
 $color_bgdark: #222629;
 
@@ -10,8 +7,6 @@ $color_bgdark: #222629;
 body {
   min-width: 300px;
   overflow-x: hidden;
-  // font-family: 'Poppins', sans-serif;
-  // font-family: 'Pacifico', cursive;
   font-family: 'Lora', serif;
   color: $color_t_dark;
 }
@@ -19,4 +14,3 @@ body {
   max-width: 1920px;
   margin: 0 auto;
 }
-// ---- ---- title ---- ---- //
